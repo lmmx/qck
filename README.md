@@ -10,6 +10,16 @@ Rubber ducking code with language models
 
 [Read The Docs](https://qck.readthedocs.io/en/latest/)
 
+## Idea
+
+- Run language models on code to extract meaning (broadly defined)
+- Run question generation models to deliberate unclear meaning
+- Interpret docstrings to incorporate background knowledge into the above
+- Run a 'loop' in which docstrings are added to code to make the meaning more interpretable
+- Suggest better names for semantic placeholders (like `k, v` for key, value rather than what is in
+  the dictionary)
+- Suggest `typing.NewType` to distinguish plain types, and try to autogenerate data models of types
+
 ## Requires
 
 - Python 3.9+
